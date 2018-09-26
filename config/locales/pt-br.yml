@@ -14,146 +14,151 @@
 # You should have received a copy of the GNU Lesser General Public License along
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 
-# Brazilian Portuguese (pt-br) locale.
+# English (en) locale.
 
-pt-br:
-  bigbluebutton: BigBlueButton
+en:
+  activerecord:
+    attributes:
+      user:
+        accepted_terms: "Termos e Condições"
+  bigbluebutton: Êxito Escolar
   cancel: Cancelar
   copy: Copiar
-  delete: Deletar
-  docs: Documentação
-  email: E-mail
-  enter_your_name: Insira seu nome!
+  delete: Apagar
+  docs: Documentos
+  email: Email
+  enter_your_name: Introduz o teu nome!
   errors:
     internal:
-      message: Ah, não! Parece que algo deu errado no fim.
-      help: O erro foi registrado, daremos uma olhada!
+      message: Oh, não! Parece que algo correu mal no nosso encerramento.
+      help: O erro foi referenciado, vamos cuidar dele!
     migration_error:
-      contact_admin: Se você não é um administrador, por favor contate algum.
-      continue: Gostaria de permanecer usando 1.0.
+      contact_admin: Se não és um administrador, por favor contata um.
+      continue: Gostaria de continuar a usar 1.0.
       notice: >
-        Greenlight encontrou um erro de migração no banco de dados.<br>
-        Isso pode ser porque você não atualizou para o Greenlight 2.0.
+        Êxito Escolar encontrou um erro de migração de dados.<br>
+        Isto pode ter ocorrido por não teres feito a atualização da Sala Virtual.
       upgrade: Mostre-me como atualizar para 2.0!
-      version: Lançamos uma nova versão do Greenlight, entretanto sua base de dados é incompatível.
+      version: Temos uma nova versão, mas o teu sistema não é compatível.
     not_found:
-      message: Epa! Parece que não conseguimos encontrar isto.
-      help: É possível que tenha sido removido?
+      message: Whoops! Parece que não podemos encontrar isso.
+      help: É possível ter sido removido?
     title: Erros
     unprocessable:
-      message: Oops! Solicitação é improcessável.
-      help: Infelizmente esta não é uma solicitação válida.
+      message: Oops! Não podemos processar o teu pedido.
+      help: Infelizmente este não é um pedido válido.
   features:
-    title: Características
+    title: Caraterísticas
     rooms: Salas Personalizadas
-    recordings: Gerenciar Gravações
+    recordings: Gravação de Aulas
     designs: Designs Personalizados
-    authentication: Autenticação de Usuário
+    authentication: Autenticação de Explicador
   footer:
     powered_by: Desenvolvido por %{href}.
   go_back: Voltar
-  greenlight: Greenlight
+  greenlight: Êxito Escolar
   header:
     create_room: Criar Sala
     dropdown:
-      help: Precisa de Ajuda?
-      home: Sala Inicial
+      help: Precisas de Ajuda
+      home: Sala Virtual
       settings: Configurações
       signout: Sair
-  home_room: Sala Inicial
-  info_update_success: Informações atualizadas com sucesso.
-  invalid_credentials: O login falhou devido à credenciais inválidas. Tem certeza que inseriu corretamente?
-  invite_message: "Para convidar alguém para a reunião, envie este link:"
+  home_room: Sala Virtual
+  info_update_success: Informação atualizada com sucesso.
+  invalid_credentials: Erro devido a credenciais. Tem a certeza que as introduziu corretamente?
+  invite_message: "Para convidar alguém para esta Sala, envie este link:"
   landing:
-    about: Greenlight é um front-end simples para seu servidor de webconferências %{href}. Você pode criar suas próprias salas para hospedar sessões, ou se juntar a outras utilizando um link curto e conveniente.
-    welcome: Bem vindo ao <span class="green-grad">Greenlight</span>.
-    video: Assista ao nosso tutorial sobre como utilizar o Greenlight
-    upgrade: Mostre-me como atualizar para o 2.0!
-    version: Lançamos uma nova versão do Greenlight, entretanto sua base de dados é incompatível.
-  ldap_error: Não é possível conectar-se ao servidor LDAP. Verifique sua configuração LDAP no arquivo ENV e certifique-se de que seu servidor está funcionando.
-  login: Login
+    about: "%{href} Sala Virtual de Explicações Online em videoconferência interativa, com explicadores qualificados e experientes."
+    welcome: Bem-vindo(a) à Sala Virtual Êxito Escolar.
+    video: Assiste ao nosso tutorial sobre como utilizar a Sala Virtual
+    upgrade: Mostre-me como atualizar!
+    version: Nós disponibilizamos uma nova versão, mas a sua base de dados não é compatível.
+  ldap_error: Incapaz de conetar ao servidor LDAP. Por favor verifique as configurações LDAP no ficheiro env e assegure-se de que o seu servidor está a funcionar.
+  login: Entrar
   modal:
-    create_room:
-      auto_join: Entrar automaticamente na sala.
-      free_delete: Você será livre para deletar esta sala a qualquer tempo.
-      name_placeholder: Insira o nome da sala...
-      not_blank: O nome da sala não pode ficar vazio.
+    create_room: 
+      auto_join: Entrar automaticamente na Sala.
+      free_delete: Poderá apagar esta Sala a qualquer momento.
+      name_placeholder: Introduza o Nome da Sala...
+      not_blank: O Nome da Sala não pode estar em branco.
       title: Criar Nova Sala
     delete_account:
-      confirm: Tem certeza que deseja deletar sua conta?
-      delete: Estou certo, deletar minha conta.
-      keep: No momento irei mantê-la.
-      warning: Esta é uma decisão final. Você <b>não</b> será capaz de recuperar os dados associados.
+      confirm: Tem a certeza que quer apagar a sua conta?
+      delete: Tenho a certeza, apague a minha conta.
+      keep: Afinal, quero manter a minha conta.
+      warning: Esta decisão é final. <b>Não</b> poderá recuperar dados associados à sua conta.
     delete_room:
-      confirm: Você tem certeza de que deseja deletar %{room}?
-      delete: Estou certo, deletar esta sala.
-      keep: Em um segundo pensamento, irei mantê-la.
-      warning: Você <b>não</b> será capaz de recuperar esta sala ou qualquer uma das gravações associadas a ela.
+      confirm: Tem a certeza que quer apagar a %{room}?
+      delete: Tenho a certeza, apague esta Sala.
+      keep: Um segundo, quero manter a Sala.
+      warning: Esta decisão é final. <b>Não</b> poderá recuperar esta Sala nem nenhuma das Gravações associadas.
     login:
       or: ou
       with: Login com %{provider}
-  omniauth_error: Um erro ocorreu enquanto autenticava com omniauth. Tente novamente ou contate um administrador!
-  password: Senha
+  omniauth_error: An error occured while authenticating with omniauth. Please try again or contact an administrator!
+  password: Password
   recording:
-    email: Enviar Gravação por E-mail
-    no_recordings: Esta sala não possui %{inject} gravações.
+    email: Email de Gravação
+    no_recordings: Esta Sala ainda não tem %{inject}Gravações.
     recorded_on: Gravado em %{date}
     table:
       name: Nome
       thumbnails: Miniaturas
       length: Duração
-      users: Usuários
+      users: Utilizadores
       visibility: Visibilidade
       formats: Formatos
     visibility:
-      public: Público
+      public: Publico
       unlisted: Privado
   room:
-    invited: Você foi convidado a participar
-    invite_participants: Convidar participantes
-    join: Participar
-    last_session: Última sessão em %{session}
+    invited: Foste convidado para esta Sala.
+    invite_participants: Convidar Participantes
+    join: Entrar na Sala
+    last_session: Ultima sessão em %{session}
     owner: Proprietário
-    no_sessions: Esta sala não possui sessões, ainda!
+    no_sessions: Esta sala ainda não tem sessões!
     recordings: Gravações
     sessions: Sessões
     settings: Configurações da Sala
-    start: Iniciar
+    start: Iniciar Aula
     wait:
-      message: Oops! A reunião ainda não iniciou.
-      auto: Você será automaticamente inserido na reunião quando ela começar.
+      message: Oops! Esta aula ainda não começou.
+      auto: Entrarás automaticamente quando a aula começar.
   settings:
     account:
-      fullname: Nome Completo
+      fullname: Nome
       provider: Fornecedor
       image: Imagem
-      image_url: URL da Imagem de Perfil
-      subtitle: Atualizar suas Informações de Conta
-      title: Informações de Conta
+      image_url: link da Imagem de Perfil
+      subtitle: Atualize as informações do seu perfil
+      title: Informações de Perfil
     delete:
-      button: Sim, eu gostaria de deletar minha conta.
-      disclaimer: Se você escolher deletar sua conta, isto <b>NÃO</b> poderá ser desfeito. Todas as informações relacionadas a sua conta, incluindo configurações, salas e gravações serão removidas.
-      subtitle: Deletar conta Permanentemente
-      title: Deletar Conta
+      button: Sim, gostaria de apagar a minha conta.
+      disclaimer: Se escolher apagar a sua conta, ela <b>não</b> será recuperada. Toda a informação da sua conta, incluindo configurações, salas e gravações serão removidas.
+      subtitle:Permanentemente Apagar a Sua Conta
+      title: Apagar a Conta
     design:
-      not_supported: Personalização atualmente não suportada.
-      subtitle: Personalizar Greenlight
+      not_supported: Personalização não suportada ainda.
+      subtitle: Personaliza o teu Perfil
       title: Design
     password:
-      confirmation: Confirmação da Nova Senha
-      new: Nova Senha
-      old: Senha Antiga
-      subtitle: Alterar sua Senha
-      title: Senha
+      confirmation: Confirmação da Nova Password
+      new: Nova Password
+      old: Velha Password
+      subtitle: Mudar a sua Password
+      title: Password
     title: Configurações
   signup:
-    password_confirm: Confirmação de Senha
+    password_confirm: Confirmar Password
     subtitle: Criar uma Conta
-    title: Cadastro
-    with: Cadastro com %{provider}
+    title: Entrar
+    with: Entrar com %{provider}
   terms:
-    accept: Aceito os termos e condições.
-    title: Termos e Condições
+    accept: Aceitar %{href}
+    accept_existing: Eu aceito os termos e condições
+    title: Termos e condições
   test_install: >
     Esta implantação está usando um servidor de teste pré-configurado, você deve substitui-lo pelo seu próprio.
     Para detalhes, veja o %{href}.
