@@ -20,146 +20,146 @@ en:
   activerecord:
     attributes:
       user:
-        accepted_terms: "Terms and Conditions"
-  bigbluebutton: BigBlueButton
-  cancel: Cancel
-  copy: Copy
-  delete: Delete
-  docs: Documentation
+        accepted_terms: "Termos e Condições"
+  bigbluebutton: Êxito Escolar
+  cancel: Cancelar
+  copy: Copiar
+  delete: Apagar
+  docs: Documentos
   email: Email
-  enter_your_name: Enter your name!
+  enter_your_name: Introduz o teu nome!
   errors:
     internal:
-      message: Oh no! Looks like something went wrong on our end.
-      help: The error has been logged, we'll take a look!
+      message: Oh, não! Parece que algo correu mal no nosso encerramento.
+      help: O erro foi referenciado, vamos cuidar dele!
     migration_error:
-      contact_admin: If you are not an administrator, please contact one.
-      continue: I'd like to stay using 1.0.
+      contact_admin: Se não és um administrador, por favor contata um.
+      continue: Gostaria de continuar a usar a versão 1.0.
       notice: >
-        Greenlight encountered a database migration error.<br>
-        This may be because you haven't updated to Greenlight 2.0.
-      upgrade: Show me how to upgrade to 2.0!
-      version: We've released a new version of Greenlight, but your database isn't compatible.
+        Êxito Escolar encontrou um erro de migração de dados.<br>
+        Isto pode ter ocorrido por não teres feito a atualização da Sala Virtual.
+      upgrade: Mostre-me como atualizar para 2.0!
+      version: Temos uma nova versão, mas o teu sistema não é compatível.
     not_found:
-      message: Whoops! Looks like we can't find that.
-      help: Is it possible its been removed?
-    title: Errors
+      message: Whoops! Parece que não podemos encontrar isso.
+      help: É possível ter sido removido?
+    title: Erros
     unprocessable:
-      message: Oops! Request is unprocessable.
-      help: Unforunately this isn't a valid request.
+      message: Oops! Não podemos processar o teu pedido.
+      help: Infelizmente este não é um pedido válido.
   features:
-    title: Features
-    rooms: Personalized Rooms
-    recordings: Recording Management
-    designs: Custom Designs
-    authentication: User Authentication
+    title: Caraterísticas
+    rooms: Salas Personalizadas
+    recordings: Gravação de Aulas
+    designs: Designs Personalizados
+    authentication: Autenticação de Explicador
   footer:
-    powered_by: Powered by %{href}.
-  go_back: Go back
-  greenlight: Greenlight
+    powered_by: Desenvolvido por %{href}.
+  go_back: Voltar
+  greenlight: Êxito Escolar
   header:
-    create_room: Create Room
+    create_room: Criar Sala
     dropdown:
-      help: Need help?
-      home: Home Room
-      settings: Settings
-      signout: Sign out
-  home_room: Home Room
-  info_update_success: Information successfully updated.
-  invalid_credentials: Login failed due to invalid credentials. Are you sure you entered them correctly?
-  invite_message: "To invite someone to the meeting, send them this link:"
+      help: Precisas de Ajuda
+      home: Sala Virtual
+      settings: Configurações
+      signout: Sair
+  home_room: Sala Virtual
+  info_update_success: Informação atualizada com sucesso.
+  invalid_credentials: Erro devido a credenciais. Tem a certeza que as introduziu corretamente?
+  invite_message: "Para convidar alguém para esta Sala, envie este link:"
   landing:
-    about: "%{href} is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to BigBlueButton.
-    video: Watch our tutorial on using Greenlight
-    upgrade: Show me how to upgrade to 2.0!
-    version: We've released a new version of Greenlight, but your database isn't compatible.
-  ldap_error: Unable to connect to the LDAP server. Please check your LDAP configuration in the env file and ensure your server is running.
-  login: Login
+    about: "%{href} Sala Virtual de Explicações Online em videoconferência interativa, com explicadores qualificados e experientes."
+    welcome: Bem-vindo(a) à Sala Virtual Êxito Escolar.
+    video: Assiste ao nosso tutorial sobre como utilizar a Sala Virtual
+    upgrade: Mostre-me como atualizar!
+    version: Nós disponibilizamos uma nova versão, mas a sua base de dados não é compatível.
+  ldap_error: Incapaz de conetar ao servidor LDAP. Por favor verifique as configurações LDAP no ficheiro env e assegure-se de que o seu servidor está a funcionar.
+  login: Entrar
   modal:
-    create_room:
-      auto_join: Automatically join me into the room.
-      free_delete: You will be free to delete this room at any time.
-      name_placeholder: Enter a room name...
-      not_blank: Room name cannot be blank.
-      title: Create New Room
+    create_room: 
+      auto_join: Entrar automaticamente na Sala.
+      free_delete: Poderá apagar esta Sala a qualquer momento.
+      name_placeholder: Introduza o Nome da Sala...
+      not_blank: O Nome da Sala não pode estar em branco.
+      title: Criar Nova Sala
     delete_account:
-      confirm: Are you sure you want to delete your account?
-      delete: I'm sure, delete my account.
-      keep: Actually, I'll keep it.
-      warning: This decision is final. You will <b>not</b> be able to recover associated data.
+      confirm: Tem a certeza que quer apagar a sua conta?
+      delete: Tenho a certeza, apague a minha conta.
+      keep: Afinal, quero manter a minha conta.
+      warning: Esta decisão é final. <b>Não</b> poderá recuperar dados associados à sua conta.
     delete_room:
-      confirm: Are you sure you want to delete %{room}?
-      delete: I'm sure, delete this room.
-      keep: On second thought, I'll keep it.
-      warning: You will <b>not</b> be able to recover this room or any of its associated recordings.
+      confirm: Tem a certeza que quer apagar a %{room}?
+      delete: Tenho a certeza, apague esta Sala.
+      keep: Um segundo, quero manter a Sala.
+      warning: Esta decisão é final. <b>Não</b> poderá recuperar esta Sala nem nenhuma das Gravações associadas.
     login:
-      or: or
-      with: Login with %{provider}
+      or: ou
+      with: Login com %{provider}
   omniauth_error: An error occured while authenticating with omniauth. Please try again or contact an administrator!
   password: Password
   recording:
-    email: Email Recording
-    no_recordings: This room has no %{inject}recordings.
-    recorded_on: Recorded on %{date}
+    email: Email de Gravação
+    no_recordings: Esta Sala ainda não tem %{inject}Gravações.
+    recorded_on: Gravado em %{date}
     table:
-      name: Name
-      thumbnails: Thumbnails
-      length: Length
-      users: Users
-      visibility: Visibility
-      formats: Formats
+      name: Nome
+      thumbnails: Miniaturas
+      length: Duração
+      users: Utilizadores
+      visibility: Visibilidade
+      formats: Formatos
     visibility:
-      public: Public
-      unlisted: Unlisted
+      public: Publico
+      unlisted: Privado
   room:
-    invited: You have been inivited to join
-    invite_participants: Invite Participants
-    join: Join
-    last_session: Last session on %{session}
-    owner: Owner
-    no_sessions: This room has no sessions, yet!
-    recordings: Recordings
-    sessions: Sessions
-    settings: Room Settings
-    start: Start
+    invited: Foste convidado para esta Sala.
+    invite_participants: Convidar Participantes
+    join: Entrar na Sala
+    last_session: Ultima sessão em %{session}
+    owner: Proprietário
+    no_sessions: Esta sala ainda não tem sessões!
+    recordings: Gravações
+    sessions: Sessões
+    settings: Configurações da Sala
+    start: Iniciar Aula
     wait:
-      message: Oops! The meeting hasn't started yet.
-      auto: You will automatically join when the meeting starts.
+      message: Oops! Esta aula ainda não começou.
+      auto: Entrarás automaticamente quando a aula começar.
   settings:
     account:
-      fullname: Fullname
-      provider: Provider
-      image: Image
-      image_url: Profile Image URL
-      subtitle: Update your Account Info
-      title: Account Info
+      fullname: Nome
+      provider: Fornecedor
+      image: Imagem
+      image_url: link da Imagem de Perfil
+      subtitle: Atualize as informações do seu perfil
+      title: Informações de Perfil
     delete:
-      button: Yes, I would like to delete my account.
-      disclaimer: If you choose to delete your account, it will <b>NOT</b> be recoverable. All information regarding your account, including settings, rooms, and recording will be removed.
-      subtitle: Permanently Delete your Account
-      title: Delete Account
+      button: Sim, gostaria de apagar a minha conta.
+      disclaimer: Se escolher apagar a sua conta, ela <b>não</b> será recuperada. Toda a informação da sua conta, incluindo configurações, salas e gravações serão removidas.
+      subtitle:Permanentemente Apagar a Sua Conta
+      title: Apagar a Conta
     design:
-      not_supported: Customization not currently supported.
-      subtitle: Customize Greenlight
+      not_supported: Personalização não suportada ainda.
+      subtitle: Personaliza o teu Perfil
       title: Design
     password:
-      confirmation: New Password Confirmation
-      new: New Password
-      old: Old Password
-      subtitle: Change your Password
+      confirmation: Confirmação da Nova Password
+      new: Nova Password
+      old: Velha Password
+      subtitle: Mudar a sua Password
       title: Password
-    title: Settings
+    title: Configurações
   signup:
-    password_confirm: Password Confirmation
-    subtitle: Create an Account
-    title: Signup
-    with: Signup with %{provider}
+    password_confirm: Confirmar Password
+    subtitle: Criar uma Conta
+    title: Entrar
+    with: Entrar com %{provider}
   terms:
-    accept: I accept the %{href}
-    accept_existing: I accept the terms and conditions
-    title: Terms and Conditions
+    accept: Aceitar %{href}
+    accept_existing: Eu aceito os termos e condições
+    title: Termos e condições
   test_install: >
-    This deployment is using a pre-configured testing server, you should replace this with your own.
-    For details, see the %{href}.
-  update: Update
+    Esta implantação está usando um servidor de teste pré-configurado, você deve substitui-lo pelo seu próprio.
+    Para detalhes, veja o %{href}.
+  update: Atualizar
