@@ -31,15 +31,15 @@ en:
   errors:
     internal:
       message: Oh, não! Parece que algo correu mal no nosso encerramento.
-      help: O erro foi referenciado, vamos cuidar dele!
+      help: O erro foi referenciado, vamos tratar dele!
     migration_error:
-      contact_admin: Se não és um administrador, por favor contata um.
+      contact_admin: Se não é um administrador, por favor contata um.
       continue: Gostaria de continuar a usar a versão 1.0.
       notice: >
         Êxito Escolar encontrou um erro de migração de dados.<br>
-        Isto pode ter ocorrido por não teres feito a atualização da Sala Virtual.
+        Isto pode ter ocorrido por não ter feito a atualização da Sala Virtual.
       upgrade: Mostre-me como atualizar para 2.0!
-      version: Temos uma nova versão, mas o teu sistema não é compatível.
+      version: Temos uma nova versão de Sala Virtual, mas o seu sistema não é compatível.
     not_found:
       message: Whoops! Parece que não podemos encontrar isso.
       help: É possível ter sido removido?
@@ -60,16 +60,16 @@ en:
   header:
     create_room: Criar Sala
     dropdown:
-      help: Precisas de Ajuda
+      help: Precisa de Ajuda?
       home: Sala Virtual
       settings: Configurações
       signout: Sair
   home_room: Sala Virtual
   info_update_success: Informação atualizada com sucesso.
   invalid_credentials: Erro devido a credenciais. Tem a certeza que as introduziu corretamente?
-  invite_message: "Para convidar alguém para esta Sala, envie este link:"
+  invite_message:
   landing:
-    about: "%{href} Sala Virtual de Explicações Online em videoconferência interativa, com explicadores qualificados e experientes."
+    about: "%{href} Sala Virtual de Explicações Online em videoconferência interativa, com explicadores qualificados e experientes. Esta é a entrada da Sala Virtual Êxito Escolar para Explicadores. Os Estudantes têm acesso a partir da área de utilizador"
     welcome: Bem-vindo(a) à Sala Virtual Êxito Escolar.
     video: Assiste ao nosso tutorial sobre como utilizar a Sala Virtual
     upgrade: Mostre-me como atualizar!
@@ -87,7 +87,7 @@ en:
       confirm: Tem a certeza que quer apagar a sua conta?
       delete: Tenho a certeza, apague a minha conta.
       keep: Afinal, quero manter a minha conta.
-      warning: Esta decisão é final. <b>Não</b> poderá recuperar dados associados à sua conta.
+      warning: Esta decisão é final. <b>Não</b> poderá recuperar os dados associados à sua conta.
     delete_room:
       confirm: Tem a certeza que quer apagar a %{room}?
       delete: Tenho a certeza, apague esta Sala.
