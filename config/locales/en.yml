@@ -27,13 +27,13 @@ en:
   delete: Apagar
   docs: Documentos
   email: Email
-  enter_your_name: Introduz o teu nome!
+  enter_your_name: Introduza o seu nome!
   errors:
     internal:
       message: Oh, não! Parece que algo correu mal no nosso encerramento.
       help: O erro foi referenciado, vamos tratar dele!
     migration_error:
-      contact_admin: Se não é um administrador, por favor contata um.
+      contact_admin: Se não é um administrador, por favor contate um.
       continue: Gostaria de continuar a usar a versão 1.0.
       notice: >
         Êxito Escolar encontrou um erro de migração de dados.<br>
@@ -41,17 +41,17 @@ en:
       upgrade: Mostre-me como atualizar para 2.0!
       version: Temos uma nova versão de Sala Virtual, mas o seu sistema não é compatível.
     not_found:
-      message: Whoops! Parece que não podemos encontrar isso.
+      message: Ups! Parece que não podemos encontrar isso.
       help: É possível ter sido removido?
     title: Erros
     unprocessable:
-      message: Oops! Não podemos processar o teu pedido.
+      message: Ups! Não podemos processar o teu pedido.
       help: Infelizmente este não é um pedido válido.
   features:
     title: Caraterísticas
     rooms: Salas Personalizadas
     recordings: Gravação de Aulas
-    designs: Designs Personalizados
+    designs: Designs personalizados
     authentication: Autenticação de Explicador
   footer:
     powered_by: Desenvolvido por %{href}.
@@ -64,14 +64,14 @@ en:
       home: Sala Virtual
       settings: Configurações
       signout: Sair
-  home_room: Sala Virtual
+  home_room: Sala Virtual 
   info_update_success: Informação atualizada com sucesso.
   invalid_credentials: Erro devido a credenciais. Tem a certeza que as introduziu corretamente?
   invite_message:
   landing:
     about: "%{href} Sala Virtual de Explicações Online em videoconferência interativa, com explicadores qualificados e experientes. Esta é a entrada da Sala Virtual Êxito Escolar para Explicadores. Os Estudantes têm acesso a partir da área de utilizador"
     welcome: Bem-vindo(a) à Sala Virtual Êxito Escolar.
-    video: Assiste ao nosso tutorial sobre como utilizar a Sala Virtual
+    
     upgrade: Mostre-me como atualizar!
     version: Nós disponibilizamos uma nova versão, mas a sua base de dados não é compatível.
   ldap_error: Incapaz de conetar ao servidor LDAP. Por favor verifique as configurações LDAP no ficheiro env e assegure-se de que o seu servidor está a funcionar.
@@ -80,7 +80,7 @@ en:
     create_room: 
       auto_join: Entrar automaticamente na Sala.
       free_delete: Poderá apagar esta Sala a qualquer momento.
-      name_placeholder: Introduza o Nome da Sala...
+      name_placeholder: Introduza o Nome da Sala
       not_blank: O Nome da Sala não pode estar em branco.
       title: Criar Nova Sala
     delete_account:
@@ -124,7 +124,7 @@ en:
     settings: Configurações da Sala
     start: Iniciar Aula
     wait:
-      message: Oops! Esta aula ainda não começou.
+      message: Ups! Esta aula ainda não começou.
       auto: Entrarás automaticamente quando a aula começar.
   settings:
     account:
@@ -141,7 +141,7 @@ en:
       title: Apagar a Conta
     design:
       not_supported: Personalização não suportada ainda.
-      subtitle: Personaliza o teu Perfil
+      subtitle: Personalize o seu Perfil
       title: Design
     password:
       confirmation: Confirmação da Nova Password
