@@ -62,9 +62,9 @@
             <%= link_to t("login"), "#loginModal", :class => "btn btn-pill btn-outline-primary mx-2", "data-toggle": "modal" %>
           <% end %>
 
-					#<% if allow_user_signup? %>
-					#	<%= link_to t("signup.title"), signup_path, :class => "btn btn-pill btn-outline-primary mx-2" %>
-					#<% end %>
+					<% if allow_user_signup? %>
+						<%= link_to t("signup.title"), signup_path, :class => "btn btn-pill btn-outline-primary mx-2" %>
+					<% end %>
 
 					<%= render "shared/modals/login_modal" %>
 				<% end %>
